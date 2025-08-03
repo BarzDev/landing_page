@@ -305,3 +305,104 @@ nav {
   text-align: center;
   padding: 1rem;
 }
+
+@media screen and (max-width: 1024px) {
+  .card_list {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .card {
+    width: 45%;
+  }
+
+  .comment_box {
+    width: 80%;
+  }
+
+  .about_container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about_content {
+    flex: unset;
+  }
+
+  .contact_container {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .explore_title {
+    font-size: 30px;
+  }
+  .explore_desc {
+    font-size: 16px;
+  }
+
+  .hero_title {
+    font-size: 48px;
+  }
+
+  .hero_tagline {
+    font-size: 20px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .hero_btn {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .card_list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .testimonial_title {
+    font-size: 32px;
+  }
+
+  .testimonial_desc {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .comment_box {
+    width: 90%;
+  }
+
+  .about_container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about_logo img {
+    height: 120px;
+  }
+
+  .about_content p {
+    text-align: left;
+    padding: 1rem 10px;
+  }
+
+  .contact_container {
+    justify-content: unset;
+    align-items: baseline;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .divider {
+    margin: 0 2rem;
+  }
+}
